@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Aviva Company Registration Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <h1 id="title">Aviva Company Registration Website</h1>
+
+  <form id="regForm">
+      <input type="text" id="fullName" placeholder="Full Name" required>
+      <input type="email" id="email" placeholder="Email" required>
+      <input type="tel" id="phone" placeholder="Phone Number" required>
+
+      <select id="country" required>
+          <option value="">Select Country</option>
+          <option value="NG">Nigeria</option>
+          <option value="US">USA</option>
+          <option value="FR">France</option>
+          <option value="ES">Spain</option>
+          <option value="BR">Brazil</option>
+          <option value="DE">Germany</option>
+          <option value="IN">India</option>
+          <option value="CN">China</option>
+          <option value="JP">Japan</option>
+          <option value="RU">Russia</option>
+          <option value="CA">Canada</option>
+          <option value="MX">Mexico</option>
+          <option value="GB">United Kingdom</option>
+      </select>
+
+      <button type="submit" id="submitBtn">Register</button>
+  </form>
+
+  <p id="message"></p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
